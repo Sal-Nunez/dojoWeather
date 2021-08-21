@@ -14,7 +14,6 @@ function tempType() {
     var tempcf = document.querySelector('#tempSelect').value
     arr = [temp1, temp2, temp3, temp4, temp5, temp6, temp7, temp8];
     for (i = 0; i < arr.length; i++) {
-        console.log(tempcf)
         if (tempcf == "C") {
             temp = (arr[i] - 32) * (5 / 9);
             temp = Math.round(temp);
