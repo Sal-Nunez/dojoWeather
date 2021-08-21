@@ -97,7 +97,7 @@
     font-weight: bold;
     color: #cf2a27;
 }
-#weatherIMG {
+.weatherIMG {
     width: 120px;
     border-radius: 50%;
 }
