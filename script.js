@@ -11,9 +11,11 @@ function tempType() {
     var temp6 = parseInt(document.querySelector("#lowsAndHighs6").innerText);
     var temp7 = parseInt(document.querySelector("#lowsAndHighs7").innerText);
     var temp8 = parseInt(document.querySelector("#lowsAndHighs8").innerText);
+    var tempcf = document.querySelector('#tempSelect').value
     arr = [temp1, temp2, temp3, temp4, temp5, temp6, temp7, temp8];
     for (i = 0; i < arr.length; i++) {
-        if (arr[i] > 60) {
+        console.log(tempcf)
+        if (tempcf == "C") {
             temp = (arr[i] - 32) * (5 / 9);
             temp = Math.round(temp);
             arr[i] = temp;
